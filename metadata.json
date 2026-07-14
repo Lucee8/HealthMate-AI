@@ -1,0 +1,6 @@
+{
+  "name": "HealthMate AI",
+  "description": "An AI-first personal healthcare companion that centralizes medical records, medication management, and health tracking, and uses conversational AI to make medical information understandable.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
