@@ -1,0 +1,144 @@
+{
+  "profile": {
+    "name": "Lucee",
+    "age": 20,
+    "gender": "Prefer not to say",
+    "bloodGroup": "O+",
+    "allergies": "",
+    "conditions": "",
+    "emergencyContactName": "Dr. Sarah Smith",
+    "emergencyContactPhone": "+91 98765 43210",
+    "consentGiven": false,
+    "onboardingComplete": true,
+    "onboardingStep": "permissions",
+    "height": 180,
+    "heightUnit": "cm",
+    "weight": 50,
+    "weightUnit": "kg",
+    "onboardingAnswers": {
+      "conditions": [
+        "None"
+      ],
+      "allergies": "None",
+      "takingMedicines": true,
+      "medicineNames": "",
+      "mainGoal": "Better sleep"
+    },
+    "permissions": {
+      "notifications": true,
+      "healthSync": true,
+      "camera": true,
+      "storage": true
+    }
+  },
+  "medications": [
+    {
+      "id": "med-1",
+      "name": "Telmisartan 40mg",
+      "dosage": "1 Tablet",
+      "frequency": "Once daily",
+      "times": [
+        "Morning"
+      ],
+      "notes": "Take after breakfast for mild hypertension control",
+      "history": {
+        "2026-06-28": "taken",
+        "2026-06-29": "taken"
+      }
+    },
+    {
+      "id": "med-2",
+      "name": "Vitamin D3 (60K IU)",
+      "dosage": "1 Capsule",
+      "frequency": "Once weekly",
+      "times": [
+        "Morning"
+      ],
+      "notes": "Take on Sundays with milk",
+      "history": {
+        "2026-06-28": "taken"
+      }
+    }
+  ],
+  "appointments": [
+    {
+      "id": "app-1",
+      "doctorName": "Dr. Sarah Smith",
+      "specialty": "Cardiology Specialist",
+      "clinicName": "City Heart Care, Clinic Room 4",
+      "date": "2026-06-30",
+      "time": "14:00",
+      "notes": "Routine blood pressure checkup and prescription renewal."
+    }
+  ],
+  "records": [
+    {
+      "id": "rec-1",
+      "title": "Comprehensive Blood Panel",
+      "type": "blood_report",
+      "date": "2023-10-24",
+      "fileName": "blood_report_oct2023.pdf",
+      "fileSize": "1.2 MB",
+      "biomarkers": {
+        "hemoglobin": {
+          "value": 14.2,
+          "unit": "g/dL",
+          "status": "normal",
+          "rangeMin": 13.5,
+          "rangeMax": 17.5,
+          "explanation": "Your level is healthy. This ensures your body's tissues are getting plenty of oxygen."
+        },
+        "vitaminD": {
+          "value": 32.4,
+          "unit": "ng/mL",
+          "status": "normal",
+          "rangeMin": 30,
+          "rangeMax": 100,
+          "explanation": "You've reached the normal range! Continue current sun exposure or supplement habits."
+        },
+        "vitaminB12": {
+          "value": 540,
+          "unit": "pg/mL",
+          "status": "normal",
+          "rangeMin": 200,
+          "rangeMax": 900,
+          "explanation": "B12 levels are steady. This supports your nerve function and red blood cell production."
+        },
+        "fastingSugar": {
+          "value": 88,
+          "unit": "mg/dL",
+          "status": "normal",
+          "rangeMin": 70,
+          "rangeMax": 99,
+          "explanation": "Your fasting glucose is excellent, indicating stable blood sugar regulation."
+        }
+      },
+      "aiExplanation": "Most biomarkers are in range. Blood sugar is optimal. Your slight iron deficiency is improving as hemoglobin levels stay steady."
+    }
+  ],
+  "chats": [
+    {
+      "id": "chat-init",
+      "sender": "assistant",
+      "text": "Hello Bhavesh! I've loaded your health profile. You have one blood report to review. How can I assist you with your health metrics, prescriptions, or medications today?",
+      "timestamp": "09:02 PM",
+      "isDisclaimer": false
+    },
+    {
+      "id": "msg-u-1785252893143",
+      "sender": "user",
+      "text": "Can you analyze my most recent Comprehensive Blood Panel and summarize what's normal or needs attention?",
+      "timestamp": "09:04 PM"
+    },
+    {
+      "id": "msg-a-1785252893150",
+      "sender": "assistant",
+      "text": "⚠️ **System Note**: My Gemini API Key is not configured yet. Please configure it in the AI Studio Secrets panel.\n\n*This is educational information, not a diagnosis. Please consult a doctor.*",
+      "timestamp": "09:04 PM",
+      "isDisclaimer": true
+    }
+  ],
+  "waterLogged": 1.5,
+  "exerciseLogged": 45,
+  "sleepLogged": 7.2
+}
